@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Link to css  -->
+  <!-- <rel="stylesheet" type="text/css" href="./style.css"> -->
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+
+
+
+
+  <title>Weather Checker</title>
+</head>
+
+
+    
+    <div class="row">
+
+      <div class="col-3 m-2 bg-light">
+        <h3>Pick a City:</h3>
+        <div class="input-group mb-2">
+          <input type="text" class="form-control" id="city-input" aria-describedby="basic-addon2">
+          <div class="input-group-append">
+            <button></button> <pick-city class="btn btn-outline-secondary bg-primary" type="button"> search </button>
+          </div>
+         
+        </div>
+        <!-- history of cities box -->
+     <div class="card" style="width: 15rem;"> 
+          <ul id="city-list" class="list-group list-group-flush">
+
+          </ul>
+        </div>
+      </div>
+
+    <div class="col-8 m-2">
+
+     <div class="row-12">
+          <div class="card">
+            <div id="today-weather" class="card-body">
+            </div>
+          </div>
+        </div>
+    <!-- Beginning of row 2 in col 2 -->
+     <br>
+        <div class="row-12">
+          <h3>5-Day Forecast:</h3>
+     </div> 
+     <!-- Beginning of row 3 in col 2 -->
+     <br>
+        <div id="boxes" class="row"> 
+     <!-- Blue box 1 -->
+         <div id="box2" class="col-2 m-2 bg-primary">
+           <h4></h4> 
+     <img>
+           <p></p>
+           <p></p> 
+     </div> 
+    <!-- Blue box 2 -->
+     <div class="col-2 m-2 bg-primary"> 
+
+     </div> 
+    <!-- Blue box 3-->
+     <div class="col-2 m-2 bg-primary">
+          <h4></h4> 
+
+     </div> 
+    <!-- Blue box 4 -->
+     <div class="col-2 m-2 bg-primary">
+         <h4></h4> 
+
+    </div>
+     <!-- Blue box 5 -->
+     <div class="col-2 m-2 bg-primary">
+
+     </div> 
+
+     </div>
+      </div>
+    </div> 
+    
+  </div>
+  <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+    integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+   <script src="index.js" ></script>
+</body>
+
+</html>
